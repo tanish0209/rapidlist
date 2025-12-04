@@ -12,6 +12,14 @@ generator client {
 datasource db {
   provider = "postgresql"
 }
+
+model User{
+  id String @id @default(cuid())
+  name String
+  email String @unique
+  password String
+  tasks Task[]
+}
 model Task{
   id String @id @default(cuid())
   title String 
@@ -21,6 +29,8 @@ model Task{
   status Status @default(To_Do)
   createdAt DateTime @default(now())
 
+  userId String
+  user User @relation(fields:[userId],references:[id])
 }
 enum Priority{
   Low
