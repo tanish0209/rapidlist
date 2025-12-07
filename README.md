@@ -29,3 +29,18 @@ RapidList is a full-stack personal task management application that helps users 
 
 ---
 
+## Setup Instructions
+
+### 1. Clone the Repository
+git clone https://github.com/your-username/rapidlist.git
+cd rapidlist
+
+### 2. Install Dependencies
+npm install
+
+### 3. Setup Database & Prisma
+npx prisma generate
+npx prisma db push
+
+### 4. Run Application 
+npm run dev
