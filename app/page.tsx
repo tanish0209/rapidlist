@@ -14,8 +14,7 @@ export default function LandingPage() {
               Streamline smarter. Achieve faster
             </h6>
             <h3 className="text-black font-bold text-4xl sm:text-5xl md:text-6xl ">
-              Organize Your Life In Record Time{" "}
-              <br className="hidden sm:block" />
+              Organize Your Life <br className="hidden sm:block" />
             </h3>
             <h3 className="text-orange-600 font-bold text-4xl sm:text-5xl md:text-6xl">
               In Record Time With RapidList
