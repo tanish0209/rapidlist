@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  icons: { icon: "/public/RapidList Logo.png" },
+  icons: { icon: "/rapidlist-logo.png" },
   title: "RapidList App",
   description: "Lightweight Personal Task Manangement App",
 };
